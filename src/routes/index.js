@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('https://prueba-omega-two.vercel.app/', (req, res) => {
+router.get('/', (req, res) => {
   res.render('index', { title: 'First Web Node' });
 });
 
