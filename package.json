@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src",
+    "dev": "nodemon src/index.js",
     "start": "node src/views/index.html"
   },
   "keywords": [],
@@ -16,6 +16,6 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }
